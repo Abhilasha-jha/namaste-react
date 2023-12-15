@@ -1,3 +1,47 @@
-#heading{
-    color:red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.res-card:hover {
+  border: 1px solid grey;
+  box-shadow: 4px 4px 4px #d0cccc;
+  cursor: pointer;
+}
+
+.res-card {
+  width: 193px;
+  /* padding: 5px; */
+  margin: 7px;
+}
+.search {
+  padding: 10px;
+}
+
+img.res-logo {
+  width: 188px;
+  height: 128px;
+  margin: 3px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  /* padding: 7px; */
+  display: flex;
 }
